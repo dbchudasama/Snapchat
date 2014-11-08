@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F59F5F6A1A094DBD008DA629 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F671A094DBD008DA629 /* Bolts.framework */; };
+		F59F5F6B1A094DBD008DA629 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F681A094DBD008DA629 /* Parse.framework */; };
+		F59F5F6C1A094DBD008DA629 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F691A094DBD008DA629 /* ParseFacebookUtils.framework */; };
+		F59F5F8A1A094F4F008DA629 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F811A094F4F008DA629 /* AudioToolbox.framework */; };
+		F59F5F8B1A094F4F008DA629 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F821A094F4F008DA629 /* CFNetwork.framework */; };
+		F59F5F8C1A094F4F008DA629 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F831A094F4F008DA629 /* CoreGraphics.framework */; };
+		F59F5F8D1A094F4F008DA629 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F841A094F4F008DA629 /* libz.dylib */; };
+		F59F5F8E1A094F4F008DA629 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F851A094F4F008DA629 /* MobileCoreServices.framework */; };
+		F59F5F8F1A094F4F008DA629 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F861A094F4F008DA629 /* QuartzCore.framework */; };
+		F59F5F901A094F4F008DA629 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F871A094F4F008DA629 /* Security.framework */; };
+		F59F5F911A094F4F008DA629 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F881A094F4F008DA629 /* StoreKit.framework */; };
+		F59F5F921A094F4F008DA629 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59F5F891A094F4F008DA629 /* SystemConfiguration.framework */; };
+		F59F5F991A095746008DA629 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5F981A095746008DA629 /* UserViewController.swift */; };
 		F5C55CC21A06BF0300FF62D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C55CC11A06BF0300FF62D8 /* AppDelegate.swift */; };
 		F5C55CC51A06BF0300FF62D8 /* Snapchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5C55CC31A06BF0300FF62D8 /* Snapchat.xcdatamodeld */; };
 		F5C55CC71A06BF0300FF62D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C55CC61A06BF0300FF62D8 /* ViewController.swift */; };
@@ -14,6 +27,7 @@
 		F5C55CCC1A06BF0300FF62D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C55CCB1A06BF0300FF62D8 /* Images.xcassets */; };
 		F5C55CCF1A06BF0300FF62D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C55CCD1A06BF0300FF62D8 /* LaunchScreen.xib */; };
 		F5C55CDB1A06BF0300FF62D8 /* SnapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C55CDA1A06BF0300FF62D8 /* SnapchatTests.swift */; };
+		F5C55CF01A06BF9200FF62D8 /* CustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C55CEF1A06BF9200FF62D8 /* CustomClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F59F5F671A094DBD008DA629 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F59F5F681A094DBD008DA629 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F59F5F691A094DBD008DA629 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		F59F5F811A094F4F008DA629 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F59F5F821A094F4F008DA629 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F59F5F831A094F4F008DA629 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F59F5F841A094F4F008DA629 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F59F5F851A094F4F008DA629 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F59F5F861A094F4F008DA629 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F59F5F871A094F4F008DA629 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F59F5F881A094F4F008DA629 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F59F5F891A094F4F008DA629 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F59F5F971A095142008DA629 /* Snapchat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Snapchat-Bridging-Header.h"; sourceTree = "<group>"; };
+		F59F5F981A095746008DA629 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		F5C55CBC1A06BF0300FF62D8 /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C55CC01A06BF0300FF62D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5C55CC11A06BF0300FF62D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +66,7 @@
 		F5C55CD41A06BF0300FF62D8 /* SnapchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C55CD91A06BF0300FF62D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5C55CDA1A06BF0300FF62D8 /* SnapchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatTests.swift; sourceTree = "<group>"; };
+		F5C55CEF1A06BF9200FF62D8 /* CustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +74,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59F5F8A1A094F4F008DA629 /* AudioToolbox.framework in Frameworks */,
+				F59F5F8B1A094F4F008DA629 /* CFNetwork.framework in Frameworks */,
+				F59F5F8C1A094F4F008DA629 /* CoreGraphics.framework in Frameworks */,
+				F59F5F8D1A094F4F008DA629 /* libz.dylib in Frameworks */,
+				F59F5F8E1A094F4F008DA629 /* MobileCoreServices.framework in Frameworks */,
+				F59F5F8F1A094F4F008DA629 /* QuartzCore.framework in Frameworks */,
+				F59F5F901A094F4F008DA629 /* Security.framework in Frameworks */,
+				F59F5F911A094F4F008DA629 /* StoreKit.framework in Frameworks */,
+				F59F5F921A094F4F008DA629 /* SystemConfiguration.framework in Frameworks */,
+				F59F5F6B1A094DBD008DA629 /* Parse.framework in Frameworks */,
+				F59F5F6A1A094DBD008DA629 /* Bolts.framework in Frameworks */,
+				F59F5F6C1A094DBD008DA629 /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +99,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F59F5F661A094D86008DA629 /* Parse Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F59F5F671A094DBD008DA629 /* Bolts.framework */,
+				F59F5F681A094DBD008DA629 /* Parse.framework */,
+				F59F5F691A094DBD008DA629 /* ParseFacebookUtils.framework */,
+			);
+			name = "Parse Framework";
+			sourceTree = "<group>";
+		};
 		F5C55CB31A06BF0300FF62D8 = {
 			isa = PBXGroup;
 			children = (
+				F59F5F811A094F4F008DA629 /* AudioToolbox.framework */,
+				F59F5F821A094F4F008DA629 /* CFNetwork.framework */,
+				F59F5F831A094F4F008DA629 /* CoreGraphics.framework */,
+				F59F5F841A094F4F008DA629 /* libz.dylib */,
+				F59F5F851A094F4F008DA629 /* MobileCoreServices.framework */,
+				F59F5F861A094F4F008DA629 /* QuartzCore.framework */,
+				F59F5F871A094F4F008DA629 /* Security.framework */,
+				F59F5F881A094F4F008DA629 /* StoreKit.framework */,
+				F59F5F891A094F4F008DA629 /* SystemConfiguration.framework */,
+				F5C55CEF1A06BF9200FF62D8 /* CustomClass.m */,
 				F5C55CBE1A06BF0300FF62D8 /* Snapchat */,
 				F5C55CD71A06BF0300FF62D8 /* SnapchatTests */,
 				F5C55CBD1A06BF0300FF62D8 /* Products */,
+				F59F5F971A095142008DA629 /* Snapchat-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +141,11 @@
 		F5C55CBE1A06BF0300FF62D8 /* Snapchat */ = {
 			isa = PBXGroup;
 			children = (
+				F59F5F661A094D86008DA629 /* Parse Framework */,
 				F5C55CC11A06BF0300FF62D8 /* AppDelegate.swift */,
 				F5C55CC61A06BF0300FF62D8 /* ViewController.swift */,
 				F5C55CC81A06BF0300FF62D8 /* Main.storyboard */,
+				F59F5F981A095746008DA629 /* UserViewController.swift */,
 				F5C55CCB1A06BF0300FF62D8 /* Images.xcassets */,
 				F5C55CCD1A06BF0300FF62D8 /* LaunchScreen.xib */,
 				F5C55CC31A06BF0300FF62D8 /* Snapchat.xcdatamodeld */,
@@ -216,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C55CC71A06BF0300FF62D8 /* ViewController.swift in Sources */,
+				F59F5F991A095746008DA629 /* UserViewController.swift in Sources */,
+				F5C55CF01A06BF9200FF62D8 /* CustomClass.m in Sources */,
 				F5C55CC21A06BF0300FF62D8 /* AppDelegate.swift in Sources */,
 				F5C55CC51A06BF0300FF62D8 /* Snapchat.xcdatamodeld in Sources */,
 			);
@@ -340,9 +406,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/DivyeshBC/Desktop/App,
+					"Project/parse-library-1",
+					"$(PROJECT_DIR)/Snapchat",
+				);
 				INFOPLIST_FILE = Snapchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snapchat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +425,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/DivyeshBC/Desktop/App,
+					"Project/parse-library-1",
+					"$(PROJECT_DIR)/Snapchat",
+				);
 				INFOPLIST_FILE = Snapchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snapchat-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +492,7 @@
 				F5C55CE01A06BF0300FF62D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5C55CE11A06BF0300FF62D8 /* Build configuration list for PBXNativeTarget "SnapchatTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +501,7 @@
 				F5C55CE31A06BF0300FF62D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
