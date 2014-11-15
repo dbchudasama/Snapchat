@@ -42,6 +42,7 @@ class UserViewController: UITableViewController, UINavigationControllerDelegate,
         image.delegate = self
         //As in simulator the camera can't be accessed, here setting the image source to be photo library
         image.sourceType = UIImagePickerControllerSourceType.Camera
+        //image.cameraCaptureMode = UIImagePickerControllerCameraCaptureMode.Photo
         //Not allowing editing
         image.allowsEditing = false
         
@@ -152,7 +153,7 @@ class UserViewController: UITableViewController, UINavigationControllerDelegate,
                         displayedImage.tag = 3
                         
                         //Making sure the image is not stretched when displaying
-                        displayedImage.contentMode = UIViewContentMode.ScaleAspectFit
+                        displayedImage.contentMode = UIViewContentMode.ScaleToFill
                         //Now placing this image in the view
                         self.view.addSubview(displayedImage)
                         
