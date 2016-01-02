@@ -18,7 +18,7 @@ class UserViewController: UITableViewController, UINavigationControllerDelegate,
     //Creating a timer variable
     var timer = NSTimer()
     
-    func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage!, editingInfo: [NSObject : AnyObject]!) {
         self.dismissViewControllerAnimated(true, completion: nil)
         
         //Upload to Parse using standard given code by Parse
@@ -99,7 +99,7 @@ class UserViewController: UITableViewController, UINavigationControllerDelegate,
                 var imageView:PFImageView = PFImageView()
                 
                 //Setting the imageView to the image file
-                imageView.file = image["photo"] as PFFile
+                imageView.file = image["photo"] as! PFFile
                 
                 //Instruction to download the image
                 imageView.loadInBackground({ (photo, error) -> Void in
@@ -113,7 +113,7 @@ class UserViewController: UITableViewController, UINavigationControllerDelegate,
                         //If sender name is from list of contacts then display the username
                         if image["senderUsername"] != nil {
                             
-                            senderUsername = image["senderUsername"]! as NSString
+                            senderUsername = image["senderUsername"] as! NSString as String
                         
                         //Or else
                         } else {
@@ -216,11 +216,11 @@ class UserViewController: UITableViewController, UINavigationControllerDelegate,
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UITableViewCell
 
         // Configure the cell...
         // Setting the text of each cell to the name of each user
-        cell.textLabel.text = userArray[indexPath.row]
+        cell.textLabel!.text = userArray[indexPath.row]
 
         return cell
     }
